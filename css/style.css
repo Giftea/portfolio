@@ -1,0 +1,23 @@
+header{
+    background-image: url('./img/diamond.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    
+}
+
+.tabs .indicator{
+    background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: transparent;
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+@media screen and (max-width: 670px){
+    header {min-height: 500px;}
+}
